@@ -19,31 +19,31 @@ int main()
 
 
   do {
-    cout << "Enter how many siblings do you have: ";
+    cout << "How many brothers and sisters do you have?";
     getline (cin,mystr);
     stringstream(mystr) >> siblings;
     string siblingsName;
     if (siblings == -2)
       break;
     else  if (siblings == -1)
-      cout << "How it even possible? Please put correct number: "<< endl;
-    
+      cout << "How could that be?"<< endl;
+
     else if (siblings == 0)
     {
-      cout << "You are only 1 child."<< endl;
+      cout << "Oh, you were an only child!"<< endl;
       return 0;
     }
     else
     {
       if (siblings <=3)
-        cout << "You have a nice family"<< endl;
+        cout << "Sounds like a nice size family"<< endl;
       else
-        cout << "You have a big family"<< endl;
+        cout << "A big family!"<< endl;
       for (int x = 1; x <= siblings; x++)
       {
-        cout << " Puts a "<< x<< "name of you siblings separated by one or more spaces: "<<endl;
+        cout << "What's the name of your #"<< x<< "sibling?"<<endl;
         getline (cin, siblingsName);
-        allName+=siblingsName + "  ";
+        allName+=siblingsName + " ";
         if (x<siblings){
           allName=allName + ",";
         }
