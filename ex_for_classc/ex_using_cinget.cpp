@@ -1,4 +1,4 @@
-// This program demonstrates three ways to yse cin.get() to pause a program.
+// This program demonstrates three ways to use cin.get() to pause a program.
 
 #include <iostream>
 using namespace std;

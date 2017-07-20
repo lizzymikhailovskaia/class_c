@@ -4,13 +4,12 @@
 #include <iostream> 
 using namespace std; 
 
-int main() 
-{ 
+int main() { 
   int score = 65;  // Initialize student's test score 11     
-    if (score == 100) ;
-    cout << "You made a perfect score.\n"; 
+    if (score == 100)
+    cout << "You made a perfect score."<< endl; 
     else
-    cout << "You needed " << score << " more points for a perfect score.\n"; 
+    cout << "You needed " << score << " more points for a perfect score."<< endl; 
   return 0; 
  } 
 
