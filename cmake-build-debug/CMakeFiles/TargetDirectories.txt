@@ -1,0 +1,3 @@
+/Users/lizzy/class_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lizzy/class_c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lizzy/class_c/cmake-build-debug/CMakeFiles/class_c.dir

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lizzy/class_c/gameOfLife/gameoflife.cpp
+iostream
+-
+string
+-
+fstream
+-
+zconf.h
+-
+

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="class_c"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lizzy/class_c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/lizzy/class_c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/lizzy/class_c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_c">
+				<Option output="/Users/lizzy/class_c/cmake-build-debug/class_c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lizzy/class_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_c"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="class_c/fast">
+				<Option output="/Users/lizzy/class_c/cmake-build-debug/class_c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lizzy/class_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 class_c/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lizzy/class_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lizzy/class_c/ icecream.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB123/lab1.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB123/lab1_3_run_time_errors.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB123/lab1_5_fix_errors.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB123/lab2_1.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB123/lab2_2.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB123/tryIt3A.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB4/color.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB4/triIt4.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB4/tryIt4B.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/LAB5/tryIt5A.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/brownies.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/cashier_pp.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/driver_license.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_array_store_values.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_average_of_three_numbers.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_averages_three_testscores.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_avoid_integer_division.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_break_and_default_statement.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_conditional_operator.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_counter_var_controls_loop.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_do_while_loop.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_for_loop.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_general_crates_dimensions.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_how_cin_read_multiple_values.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_if_else_statement_modulusoperator.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_increment_and_decrement.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_input_validation.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_letting_user_specify_filename.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_nested_if.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_number_of_players_inputval.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_rectangle_area.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_rectangle_area2.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_relational_operators_compare.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_running_total.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_sentinel_calc_total.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_sum_of_2num.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_switch_statement.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_testing_the_divisor.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_three_functions.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_three_rows_of_numbers.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_total_sales_inatable.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_using_cinget.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_using_the_getline.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_variables_same_name.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/ex_for_classc/ex_while_loop.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/findErrors.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/fortunes.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/game.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/gameoflife.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/geo_calculator_switch.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/geometry_calculator_if_else.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/hello_world.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/lowest_score_dropped.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/max_min_problem.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/monthly_sales_report.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/people/population_bar_char_ex.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/percentage.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/petTag.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/purchase_price_assignment.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/purchaseprice_assignment_user.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/random_number_guessing_game.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/sales_tax_report.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/siblings.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/switch.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/table/table.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/test.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/testNum.cpp">
+			<Option target="class_c"/>
+		</Unit>
+		<Unit filename="/Users/lizzy/class_c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
