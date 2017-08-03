@@ -11,7 +11,7 @@ const double PI = 3.14159;
 int choice;
 double area;
 
-int main ()
+int main()
 {
   displayMenu();
   return 0;
